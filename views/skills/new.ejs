@@ -1,0 +1,12 @@
+<%-include('../partials/header') %>
+<h1><%= title %></h1>
+<form action="/skills" method="POST" autocomplete="off">
+  <label for="skill">Skill</label>
+  <input type="text" name="skill" />
+  <br />
+  <label for="level">Skill Level</label>
+  <input type="text" name="level" />
+  <br />
+  <button type="submit">Save Skill</button>
+</form>
+<%-include('../partials/footer')%>

@@ -1,0 +1,8 @@
+<%-include('../partials/header') %>
+<h1>Skills</h1>
+<ul>
+  <% skills.forEach(function(s) { %>
+  <li><%= s.skill %> - <%= s.level%></li>
+  <% }); %>
+</ul>
+<%-include('../partials/footer')%>
